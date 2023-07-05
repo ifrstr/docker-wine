@@ -24,6 +24,7 @@ RUN apt update && \
   \
   # Winetricks
   wget -O /usr/bin/winetricks https://raw.githubusercontent.com/Winetricks/winetricks/master/src/winetricks && \
+  chmod +x /usr/bin/winetricks && \
   \
   # wineboot
   /usr/bin/wine wineboot && \
